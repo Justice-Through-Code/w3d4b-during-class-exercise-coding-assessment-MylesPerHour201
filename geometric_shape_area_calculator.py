@@ -15,7 +15,7 @@ def main():
     
     # TODO: Using one print statement, use string concatenation to print the options only 
     # as a single string (make sure to add a space between each option)
-    print('Circle = 1 Rectangle = 2 Triangle = 3')
+    print(Circle + ' ' + Rectangle + ' ' + Triangle)
 
     # TODO: In terminal, ask the user "Select a shape by entering 1, 2, or 3' and assign the input to a new variable named 'choice'.
     choice = input('Select a shape by entering 1, 2, or 3')
