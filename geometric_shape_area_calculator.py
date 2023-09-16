@@ -27,7 +27,8 @@ def main():
     choice = int(choice)
 
     # TODO: With one line of code, verify the variable 'choice' is indeed the data type integer, use conditional logic and print the output.  If converted correctly, the output in Terminal should read 'True'.
-    print(type(choice))
+    print(type(choice) == int)
+    
     
   
     if choice == 1:  #DO NOT REMOVE THE 'IF'
@@ -46,7 +47,7 @@ def main():
         # Calculate the area of a rectangle
         # TODO: Assign new variables 'length' and 'width' and ask for the user's input for the length and width of the rectangle.
         length = input('What is the length of the rectangle?')
-        width = input('What is the length of the rectangle?')
+        width = input('What is the width of the rectangle?')
         # TODO: Convert both 'length' and 'width' to float.
         length = float(length)
         width = float(width)
