@@ -15,7 +15,8 @@ def main():
     
     # TODO: Using one print statement, use string concatenation to print the options only 
     # as a single string (make sure to add a space between each option)
-    print(Circle + ' ' + Rectangle + ' ' + Triangle)
+    print('Circle = 1' + ' ' + 'Rectangle = 2' + ' ' + 'Triangle = 3')
+    
 
     # TODO: In terminal, ask the user "Select a shape by entering 1, 2, or 3' and assign the input to a new variable named 'choice'.
     choice = input('Select a shape by entering 1, 2, or 3')
@@ -73,7 +74,21 @@ def main():
         print(f"The area is: {area:.2f} square units.") # DO NOT MODIFY
 
     # TODO: Print a statement explaining each step required to find and complete your technical assignments.  Be specific.
-    print('First locate the after class section of the class date of the assignment: ex. w3d2\nThen click on the "Begin assignment" link to be taken to GitHub classroom\nThen click "Accept assignment" to generate your repo URL\nThen click your repo URL to be to your assignment repo URL homepage\nThen copy the URL located in the green "Code" button\nThen open your powershell\nThen cd into the correct folder that stores your class assignments\nThen type the command "git clone" and paste your URL after clone, being sure there is a space in between "clone" and your URL\nThen open VSCode\nThen use "File+Open Folder" to open your repo folder\nOnce your assignment is open in VSCode, locate the README file\nFollow all instructions on the README file\nOnce your code has passed the unittest, make sure to comment out all functions\nthen save your code and use "git add", "git commit", and "git push" to turn your assignment in to the github autograder\nOnce your repo gets the green checkmark, copy your repo URL and paste it into the assignment submission on Canvas.') 
+    print('First locate the after class section of the class date of the assignment: ex. w3d2\
+          Then click on the "Begin assignment" link to be taken to GitHub classroom\
+          Then click "Accept assignment" to generate your repo URL\
+          Then click your repo URL to be to your assignment repo URL homepage\
+          Then copy the URL located in the green "Code" button\
+          Then open your powershell\
+          Then cd into the correct folder that stores your class assignments\
+          Then type the command "git clone" and paste your URL after clone, being sure there is a space in between "clone" and your URL\
+          Then open VSCode\
+          Then use "File+Open Folder" to open your repo folder\
+          Once your assignment is open in VSCode, locate the README file\
+          Follow all instructions on the README file\
+          Once your code has passed the unittest, make sure to comment out all functions\
+          then save your code and use "git add", "git commit", and "git push" to turn your assignment in to the github autograder\
+          Once your repo gets the green checkmark, copy your repo URL and paste it into the assignment submission on Canvas.') 
 
 
 if __name__ == "__main__": # DO NOT MODIFY
